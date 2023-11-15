@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Translator</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div class="text-input">
+                <textarea name="from-text" class="from-text" placeholder="Enter text" cols="30" rows="10"></textarea>
+                <textarea name="to-text" class="to-text" placeholder="Translation" readonly enabled></textarea>
+
+            </div>
+            <ul class="controls">
+                <li class="row from">
+                    <div class="icons">
+                        <!--icons for the display-->
+                        <i id="Pre" class="fas fa-volume-up"></i>
+                        <i id="Pre" class="fas fa-copy"></i>
+
+                    </div>
+                    <select>
+                        <!--   //Now 3rd step in script file,
+                        to transfer all the options
+                        into available backend script//
+                        
+                        <option value="en-US">English</option>
+                        <option value="en-US">Hindi</option>
+                        <option value="en-US">Punjabi</option>
+                        <option value="en-US">Spanish</option>
+                        <option value="en-US">Russian</option>
+                        <option value="en-US">Marathi</option>
+                    -->
+                    </select>
+                </li>
+                <!--icons for the display-->
+                <li class="exchange"><i class="fas fa fa-exchange-alt"></i></li>
+                <li class="row to">
+                    <select>
+                        <!--   //Same as in this column too.
+                        <option value="en-US">English</option>
+                        <option value="en-US">Hindi</option>
+                        <option value="en-US">Punjabi</option>
+                        <option value="en-US">Spanish</option>
+                        <option value="en-US">Russian</option>
+                        <option value="en-US">Marathi</option>
+                    -->
+                    </select>
+                    <!--icons for the display-->
+                    <div class="icons">
+                        <i id="Post" class="fas fa-volume-up"></i>
+                        <i id="Post" class="fas fa-copy"></i>
+
+                    </div>
+                </li>
+                </u1>
+        </div>
+        <button>Translate Text</button>
+    </div>
+    <script src="JS/regions.js"></script>
+    <script src="JS/script.js"></script>
+</body>
+
+</html>
